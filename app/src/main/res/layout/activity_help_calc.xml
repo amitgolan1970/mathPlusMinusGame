@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HelpCalcActivity">
+
+    <TextView
+        style="@style/oper_view_style"
+        android:text="help page"
+        android:id="@+id/tvHelpOperand1Id"
+        />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/ivHelpCalcPageOperator"
+        android:src="@mipmap/plussign"
+        android:scaleType="fitXY"
+        android:layout_margin="1sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        style="@style/oper_view_style"
+        android:text="help page"
+        android:id="@+id/tvHelpOperand2Id"
+        />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="========"
+        android:layout_margin="1dp" android:padding="1dp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" android:gravity="center" android:textDirection="ltr" android:layoutDirection="ltr"
+        >
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/ibDeleteId"
+            android:visibility="invisible"
+            android:src="@mipmap/right_button"
+            />
+
+        <TextView
+            style="@style/display_help_style"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/tvHelpDisplayId0"
+            />
+
+        <TextView
+            style="@style/display_help_style"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/tvHelpDisplayId1"
+            />
+
+        <TextView
+            style="@style/display_help_style"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/tvHelpDisplayId2"
+            />
+
+        <TextView
+            style="@style/display_help_style"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/tvHelpDisplayId3"
+            />
+
+        <TextView
+            style="@style/display_help_style"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/tvHelpDisplayId4"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" android:gravity="center" android:textDirection="ltr" android:layoutDirection="ltr"
+        >
+
+        <Button
+            style="@style/numbtn_help_style"
+            android:text="0"
+            android:padding="1dp" android:layout_margin="1dp"
+            android:id="@+id/btnHelpNumBtnId0"
+            />
+
+        <Button
+            style="@style/numbtn_help_style"
+            android:text="1"
+            android:padding="1dp" android:layout_margin="1dp"
+            android:id="@+id/btnHelpNumBtnId1"
+            />
+
+        <Button
+            style="@style/numbtn_help_style"
+            android:text="2"
+            android:padding="1dp" android:layout_margin="1dp"
+            android:id="@+id/btnHelpNumBtnId2"
+            />
+
+        <Button
+            style="@style/numbtn_help_style"
+            android:text="3"
+            android:padding="1dp" android:layout_margin="1dp"
+            android:id="@+id/btnHelpNumBtnId3"
+            />
+
+        <Button
+            style="@style/numbtn_help_style"
+            android:text="4"
+            android:padding="1dp" android:layout_margin="1dp"
+            android:id="@+id/btnHelpNumBtnId4"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" android:gravity="center" android:textDirection="ltr" android:layoutDirection="ltr"
+        >
+
+        <Button
+            style="@style/numbtn_help_style"
+            android:text="5"
+            android:padding="1dp" android:layout_margin="1dp"
+            android:id="@+id/btnHelpNumBtnId5"
+            />
+
+        <Button
+            style="@style/numbtn_help_style"
+            android:text="6"
+            android:padding="1dp" android:layout_margin="1dp"
+            android:id="@+id/btnHelpNumBtnId6"
+            />
+
+        <Button
+            style="@style/numbtn_help_style"
+            android:text="7"
+            android:padding="1dp" android:layout_margin="1dp"
+            android:id="@+id/btnHelpNumBtnId7"
+            />
+
+        <Button
+            style="@style/numbtn_help_style"
+            android:text="8"
+            android:padding="1dp" android:layout_margin="1dp"
+            android:id="@+id/btnHelpNumBtnId8"
+            />
+
+        <Button
+            style="@style/numbtn_help_style"
+            android:text="9"
+            android:padding="1dp" android:layout_margin="1dp"
+            android:id="@+id/btnHelpNumBtnId9"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" android:gravity="center"
+        android:text="חזרה עם מענה"
+        android:id="@+id/btnBackFromHelpId"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" android:gravity="center"
+        android:text="חזרה ללא מענה"
+        android:id="@+id/btnBackFromHelpNoAnswerId"
+        />
+
+</LinearLayout>

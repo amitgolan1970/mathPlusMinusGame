@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">פלוס מינוס</string>
+    <string name="math_action">פעולות חשבון</string>
+    <string-array name="operations">
+        <item>Plus</item>
+        <item>Minus</item>
+    </string-array>
+</resources>

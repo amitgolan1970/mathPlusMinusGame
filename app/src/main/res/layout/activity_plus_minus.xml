@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layoutDirection="ltr" android:textDirection="ltr"
+    tools:context=".PlusMinusActivity">
+
+    <TextView
+        style="@style/oper_view_style"
+        android:id="@+id/tvUpOperand"
+        android:layout_centerHorizontal="true"
+        android:background="#aba"
+        />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/ivOperator"
+        android:src="@mipmap/plussign"
+        android:scaleType="fitXY"
+        android:layout_margin="1sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        style="@style/oper_view_style"
+        android:id="@+id/tvDownOperand"
+        android:layout_centerHorizontal="true"
+        android:background="#aba"
+        />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="========"
+        android:id="@+id/tvLindId"
+        android:layout_margin="1dp" android:padding="1dp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="ltr" android:textDirection="ltr"
+        android:layout_gravity="center" android:gravity="center"
+        >
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/btnHelpId"
+            android:src="@mipmap/question_mark"
+            android:scaleType="fitXY"
+            />
+
+        <EditText
+            android:layout_gravity="center_horizontal"
+            android:layout_width="75dp"
+            android:layout_height="45dp"
+            android:id="@+id/etAnswerId"
+            android:hint="\?"
+            android:gravity="right|center_vertical"
+            android:textSize="20dp"
+            android:maxLength="5"
+            />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/btnImgEqualId"
+            android:src="@mipmap/equal"
+            android:scaleType="fitXY"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@color/colorBrown"
+        android:layout_gravity="right" android:gravity="right|center_vertical"
+        android:layoutDirection="rtl" android:textDirection="rtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGeneralInfoId"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerId"
+        android:padding="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/math_action"
+        />
+
+    <SeekBar
+        android:layout_marginTop="10sp"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:background="#40C4FF"
+        android:layout_gravity="center"
+        android:id="@+id/sb"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tvTimerDisplayId"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:textDirection="ltr" android:layoutDirection="ltr"
+        android:id="@+id/ivFeedbackId"
+        />
+
+
+</LinearLayout>

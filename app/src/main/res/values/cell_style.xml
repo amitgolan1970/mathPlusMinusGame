@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="oper_view_style" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:textColor">@color/colorBrown</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">1sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="display_help_style" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_margin">1sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="numbtn_help_style" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">@color/colorYellow</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_margin">1sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="custom_row_style" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:direction">left_to_right</item>
+    </style>
+
+</resources>
